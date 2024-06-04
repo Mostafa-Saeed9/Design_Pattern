@@ -1,0 +1,16 @@
+
+
+The Decorator Pattern is a design pattern in object-oriented programming
+that allows behavior to be added to individual objects, either statically or dynamically,
+ without affecting the behavior of other objects from the same class.
+
+In this pattern, there is a base class (or interface) that defines the common functionality,
+and one or more decorator classes that add additional behavior. These decorator classes wrap the original object,
+ augmenting its behavior in a modular and flexible way.
+
+ Example ::
+
+ Imagine, you are tasked with creating a drawing application that allows users
+ to create and customize shapes with various decorations.
+  It should be able to easily add new decorators for additional features without changing
+  the existing code for shapes or other decorators

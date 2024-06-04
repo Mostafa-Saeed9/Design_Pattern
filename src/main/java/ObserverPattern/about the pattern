@@ -1,0 +1,21 @@
+
+
+The Observer Pattern a behavioral design pattern commonly used in object-oriented programming
+to establish a one-to-many dependency between objects. In this pattern,
+ one object (called the subject or observable) maintains a list of its dependents (observers)
+ and notifies them of any state changes, usually by calling one of their methods.
+
+ Here’s how it works:
+
+ Subject: This is the object that holds the state and manages the list of
+ observers. It provides methods to attach, detach, and notify observers.
+
+ Observer: This is the interface that defines the method(s) that the subject
+ calls to notify the observer of any state changes. Typically, observers implement this interface.
+
+ Concrete Subject: This is the concrete implementation of the subject interface.
+ It maintains the state and sends notifications to observers when the state changes.
+
+ Concrete Observer: This is the concrete implementation of the observer interface.
+ It registers itself with a subject to receive notifications and implements the update
+ method to respond to state changes.
